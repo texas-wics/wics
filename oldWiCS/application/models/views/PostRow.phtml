@@ -1,0 +1,9 @@
+<tr>
+	<td><?=$this->id?></td>
+	<td><?=$this->name?></td>
+	<td><?=$this->getCreatedDate();?></td>
+	<td><?=$this->getUpdatedDate();?></td>
+	<td><?=HTML::link("admin/posts/update/{$this->id}", 'Update');?></td>
+	<td><?=Form::checkbox('publish[]', $this->id, (bool)$this->active);?></td>
+	<td><?=Form::checkbox('delete[]', $this->id, false);?></td>
+</tr>

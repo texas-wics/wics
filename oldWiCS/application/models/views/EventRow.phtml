@@ -1,0 +1,8 @@
+<tr>
+    <td><?=$this->id?></td>
+    <td><?=$this->name?></td>
+    <td><?=$this->getDate()?></td>
+    <td><?=$this->getStartTime()?></td>
+    <td><?=HTML::link("admin/events/update/{$this->id}", 'Update');?></td>
+    <td><?=Form::checkbox('delete[]', $this->id, false);?></td>
+</tr>

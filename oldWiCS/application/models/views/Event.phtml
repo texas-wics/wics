@@ -1,0 +1,10 @@
+<div class="event">
+	<div class="name"><?=$this->name?></div>
+	<div class="description"><?=$this->description?></div>
+	<?if($this->rsvp){?>
+	<div class="rsvp">Please RSVP to <?=HTML::mailto($this->user->email, $this->user->getName());?> to attend.</div>
+	<?}?>
+	<div class="where">Where: <?=$this->location?></div>
+	<div class="when">When: <?=$this->getDate();?></div>
+	<div class="what-time">What Time: <?=$this->getStartTime();?> - <?=$this->getEndTime();?></div>
+</div>

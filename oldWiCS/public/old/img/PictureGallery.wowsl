@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>WOW Slider</AppName>
+            <AppUrlS>WOWSlider.com</AppUrlS>
+            <AppVersion>6.1</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <AutoPlayVideo>false</AutoPlayVideo>
+            <Captions>true</Captions>
+            <CaptionsEffect>slide</CaptionsEffect>
+            <Controls>true</Controls>
+            <GalleryName>PictureGallery</GalleryName>
+            <GallerySuffix>1</GallerySuffix>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect>blinds</ImageEffect>
+            <ImageFillColor>#000000</ImageFillColor>
+            <ImageHeight>360</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink2>false</ImageShrink2>
+            <ImageStretch>true</ImageStretch>
+            <ImageTemplate>C:/Program Files (x86)/WOW Slider/templates/backgnd/chess/</ImageTemplate>
+            <ImageTemplateName>Chess</ImageTemplateName>
+            <ImageWidth>960</ImageWidth>
+            <Images>true</Images>
+            <JoomlaType>2.5</JoomlaType>
+            <OneLoop>0</OneLoop>
+            <OrderRandom>false</OrderRandom>
+            <PlayPause>true</PlayPause>
+            <Preloader>false</Preloader>
+            <PublishIndex>index.html</PublishIndex>
+            <PublishPreview>true</PublishPreview>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>true</ShowBullets>
+            <ShowTooltips>true</ShowTooltips>
+            <SlideshowDelay>20</SlideshowDelay>
+            <SlideshowDuration>20</SlideshowDuration>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>false</StopOnHover>
+            <TemplateName>chess</TemplateName>
+            <ThumbHeight>48</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>0</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>bottom</TooltipPos>
+            <noFrame>false</noFrame>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>C:/Users/Julie/Desktop/wics_pic.jpg</url>
+                <title>wics_pic</title>
+                <filesize>44235</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Julie/Dropbox/WiCS Pictures/WWW 2014 Pictures/0425-0004A.JPG</url>
+                <title>0425-0004A</title>
+                <filesize>69006</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Julie/Dropbox/WiCS Pictures/WWW 2014 Pictures/0425-0005B.JPG</url>
+                <title>0425-0005B</title>
+                <filesize>81775</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Julie/Dropbox/WiCS Pictures/WWW 2014 Pictures/0425-0006C.JPG</url>
+                <title>0425-0006C</title>
+                <filesize>80067</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Julie/Dropbox/WiCS Pictures/WWW 2014 Pictures/0425-0007A.JPG</url>
+                <title>0425-0007A</title>
+                <filesize>74955</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Julie/Dropbox/WiCS Pictures/WWW 2014 Pictures/0425-0008A.JPG</url>
+                <title>0425-0008A</title>
+                <filesize>64771</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Julie/Dropbox/WiCS Pictures/WWW 2014 Pictures/0425-0008C.JPG</url>
+                <title>0425-0008C</title>
+                <filesize>70962</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Julie/Dropbox/WiCS Pictures/WWW 2014 Pictures/0425-0010B.JPG</url>
+                <title>0425-0010B</title>
+                <filesize>76424</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Julie/Dropbox/WiCS Pictures/WWW 2014 Pictures/0425-0010C.JPG</url>
+                <title>0425-0010C</title>
+                <filesize>75286</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Julie/Dropbox/WiCS Pictures/WWW 2014 Pictures/0425-0011A.JPG</url>
+                <title>0425-0011A</title>
+                <filesize>63298</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Julie/Dropbox/WiCS Pictures/WWW 2014 Pictures/0425-0012B.JPG</url>
+                <title>0425-0012B</title>
+                <filesize>108961</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Julie/Dropbox/WiCS Pictures/WWW 2014 Pictures/0425-0014B.JPG</url>
+                <title>0425-0014B</title>
+                <filesize>102965</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Julie/Dropbox/WiCS Pictures/WWW 2014 Pictures/0425-0015B.JPG</url>
+                <title>0425-0015B</title>
+                <filesize>108022</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Julie/Dropbox/WiCS Pictures/WWW 2014 Pictures/0425-0016C.JPG</url>
+                <title>0425-0016C</title>
+                <filesize>108481</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Julie/Dropbox/WiCS Pictures/WWW 2014 Pictures/0425-0017A.JPG</url>
+                <title>0425-0017A</title>
+                <filesize>103517</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Julie/Dropbox/WiCS Pictures/WWW 2014 Pictures/0425-0018A.JPG</url>
+                <title>0425-0018A</title>
+                <filesize>107179</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Julie/Dropbox/WiCS Pictures/WWW 2014 Pictures/0425-0020A.JPG</url>
+                <title>0425-0020A</title>
+                <filesize>104590</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Julie/Dropbox/WiCS Pictures/WWW 2014 Pictures/0425-0022B.JPG</url>
+                <title>0425-0022B</title>
+                <filesize>95995</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Julie/Dropbox/WiCS Pictures/WWW 2014 Pictures/0425-0023A.JPG</url>
+                <title>0425-0023A</title>
+                <filesize>112238</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Julie/Dropbox/WiCS Pictures/WWW 2014 Pictures/0425-0025B.JPG</url>
+                <title>0425-0025B</title>
+                <filesize>97042</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Julie/Dropbox/WiCS Pictures/WWW 2014 Pictures/0425-0025C.JPG</url>
+                <title>0425-0025C</title>
+                <filesize>96249</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Julie/Dropbox/WiCS Pictures/WWW 2014 Pictures/0425-0026B.JPG</url>
+                <title>0425-0026B</title>
+                <filesize>112481</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Julie/Dropbox/WiCS Pictures/WWW 2014 Pictures/0425-0027A.JPG</url>
+                <title>0425-0027A</title>
+                <filesize>132138</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Julie/Dropbox/WiCS Pictures/WWW 2014 Pictures/0425-0028C.JPG</url>
+                <title>0425-0028C</title>
+                <filesize>110502</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Julie/Dropbox/WiCS Pictures/WWW 2014 Pictures/0425-0029A.JPG</url>
+                <title>0425-0029A</title>
+                <filesize>106572</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Julie/Dropbox/WiCS Pictures/WWW 2014 Pictures/0425-0030A.JPG</url>
+                <title>0425-0030A</title>
+                <filesize>104729</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Julie/Dropbox/WiCS Pictures/WWW 2014 Pictures/0425-0031A.JPG</url>
+                <title>0425-0031A</title>
+                <filesize>111651</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Julie/Dropbox/WiCS Pictures/WWW 2014 Pictures/0425-0031C.JPG</url>
+                <title>0425-0031C</title>
+                <filesize>107670</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Julie/Dropbox/WiCS Pictures/WWW 2014 Pictures/0425-0032A.JPG</url>
+                <title>0425-0032A</title>
+                <filesize>106498</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Julie/Dropbox/WiCS Pictures/WWW 2014 Pictures/WWW14 BBQ.jpg</url>
+                <title>WWW14 BBQ</title>
+                <filesize>2069145</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Julie/Dropbox/WiCS Pictures/WiCSnic 2012/52896_10151080781942610_1035651891_o.jpg</url>
+                <title>52896_10151080781942610_1035651891_o</title>
+                <filesize>286090</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Julie/Dropbox/WiCS Pictures/WiCSnic 2012/53420_10151080783322610_325662421_o.jpg</url>
+                <title>53420_10151080783322610_325662421_o</title>
+                <filesize>346491</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Julie/Dropbox/WiCS Pictures/WiCSnic 2012/56608_10151080781812610_4503300_o.jpg</url>
+                <title>56608_10151080781812610_4503300_o</title>
+                <filesize>271712</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Julie/Dropbox/WiCS Pictures/WiCSnic 2012/133374_10151080780472610_551698367_o.jpg</url>
+                <title>133374_10151080780472610_551698367_o</title>
+                <filesize>279937</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Julie/Dropbox/WiCS Pictures/WiCSnic 2012/176478_10151080783587610_1563156768_o.jpg</url>
+                <title>176478_10151080783587610_1563156768_o</title>
+                <filesize>293124</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Julie/Dropbox/WiCS Pictures/WiCSnic 2012/281070_10151080781127610_1416367051_o.jpg</url>
+                <title>281070_10151080781127610_1416367051_o</title>
+                <filesize>304620</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Julie/Dropbox/WiCS Pictures/WiCSnic 2012/326876_10151080782992610_1788416562_o.jpg</url>
+                <title>326876_10151080782992610_1788416562_o</title>
+                <filesize>278452</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Julie/Dropbox/WiCS Pictures/WiCSnic 2012/622735_10151080781552610_1184147302_o.jpg</url>
+                <title>622735_10151080781552610_1184147302_o</title>
+                <filesize>250330</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Julie/Dropbox/WiCS Pictures/WiCSnic 2012/664361_10151080781497610_298870882_o.jpg</url>
+                <title>664361_10151080781497610_298870882_o</title>
+                <filesize>211644</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Julie/Dropbox/WiCS Pictures/WiCSnic 2012/665576_10151080783182610_853185760_o.jpg</url>
+                <title>665576_10151080783182610_853185760_o</title>
+                <filesize>371844</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Julie/Dropbox/WiCS Pictures/WiCSnic 2012/680440_10151080780612610_1351483019_o.jpg</url>
+                <title>680440_10151080780612610_1351483019_o</title>
+                <filesize>267114</filesize>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>

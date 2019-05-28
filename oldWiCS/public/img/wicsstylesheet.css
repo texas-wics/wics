@@ -1,0 +1,155 @@
+body {
+    background-color: #000066;
+}
+
+img {
+    width: auto ;
+    max-width: 100% ;
+    height: auto ;
+}
+
+.navbar {
+    background-color: #f2f2f2;
+}
+
+.myblue {
+    color: #000066;
+}
+
+.navbar .nav > li > a {
+    color:  #000066;
+}
+
+
+#head {
+    padding-top: 120px;
+    padding-bottom: 60px;
+}
+
+#banner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.center {
+        text-align: center;
+
+}
+
+h1 {
+    font-size:300%;
+}
+
+.white {
+    color: white;
+}
+
+p {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 150%;
+    color: white;
+   
+}
+
+.well {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 150%;
+    padding: 60px;
+    background-color: #7ee1f7;
+}
+
+/*.jumbotron {
+    background: url("texaswicsbanner.png") no-repeat center center; 
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    background-size: 100% 100%;
+    text-align: center;
+    background-color:#ccf5ff;
+    padding-bottom: 100px;   
+    padding-top: 180px;
+    
+}*/
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 100%;
+    margin: auto;
+}
+
+#carousel {
+    padding-bottom: 100px;
+}
+
+#about {
+    background-color: #f2f2f2;
+    padding-top: 60px;
+    padding-bottom: 100px;
+    color: #000066;
+}
+
+#officers {
+    padding-top: 50px;
+    padding-bottom: 90px;
+}
+
+#sponsors {
+    background-color: #f2f2f2;
+    padding-top: 50px;
+    padding-bottom: 90px;
+}
+
+#connect{
+    padding-top: 80px;
+    padding-bottom: 150px;
+    
+}
+
+#map {
+    height: 200px;
+    width: 100%;
+}
+
+
+.responsive-circle {
+    font-size: 80px;
+    font-weight: 700;
+    margin: 0 auto 20px;
+    width: 80%;
+}
+.responsive-circle::after {
+    border-radius: 50%;
+    content: "";
+    display: block;
+    height: 0;
+    margin-bottom: 20px;
+    padding-bottom: 100%;
+    width: 100%;
+}
+.responsive-circle div {
+    color: white;
+    float: left;
+    line-height: 1em;
+    margin-top: -0.5em;
+    padding-top: 50%;
+    text-align: center;
+    width: 100%;
+}
+
+.circle1::after {
+    background: url("../img/carouselPhotos/wics_website_photo3.jpg") repeat scroll 0 0 / cover ;
+}
+
+.circle2::after {
+    background: url("donuts.jpg") repeat scroll 0 0 / cover ;
+}
+
+.circle3::after {
+    background: url("donuts.jpg") repeat scroll 0 0 / cover ;
+}
+
+
+.list-group-item {
+    font-size: 200%;
+    background: rgba(113, 218, 113, 0.7)}
