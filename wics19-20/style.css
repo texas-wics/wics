@@ -63,7 +63,7 @@ Last Update: Dec 31, 2018
   padding: 0; }
 
 body {
-  font-family: "Aileron";
+  font-family: "Quattrocento Sans";
   font-weight: 400;
   font-size: 14px; }
 
@@ -73,7 +73,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Aileron";
+  font-family: "Shrikhand";
   color: #303030;
   line-height: 1.4;
   font-weight: 600; }
@@ -82,7 +82,7 @@ a,
 a:active,
 a:focus,
 a:hover {
-  font-family: "Aileron";
+  font-family: "Oswald";
   color: #303030;
   text-decoration: none;
   -webkit-transition-duration: 500ms;
