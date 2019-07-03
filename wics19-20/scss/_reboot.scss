@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: $fonts;
+    font-family: "Lato";
     font-weight: 400;
     font-size: 14px;
 }
@@ -17,7 +17,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: $fonts;
+    font-family: 'Fredoka One;
     color: $heading;
     line-height: 1.4;
     font-weight: 600;
@@ -27,7 +27,7 @@ a,
 a:active,
 a:focus,
 a:hover {
-    font-family: $fonts;
+    font-family: 'Fredoka One';
     color: $heading;
     text-decoration: none;
     @include transition-duration(500ms);
