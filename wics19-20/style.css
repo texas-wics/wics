@@ -358,7 +358,7 @@ input:focus {
         font-size: 36px; } }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
       .section-heading h2 {
-        font-size: 42px; } } 
+        font-size: 42px; } }
     @media only screen and (max-width: 767px) {
       .section-heading h2 {
         font-size: 30px; } }
@@ -674,6 +674,7 @@ input:focus {
     right: 0;
     z-index: -1; }
     .single-welcome-slide .background-curve img {
+      opacity: 0.5;
       width: 100%;
       height: auto;
       background-repeat: no-repeat; }
@@ -725,6 +726,7 @@ input:focus {
   padding-left: 3%;
   padding-right: 3%; }
   .uza-portfolio-area .portfolio-bg-curve {
+    opacity: 0.5;
     position: absolute;
     bottom: 0;
     right: 0;
@@ -1201,6 +1203,7 @@ input:focus {
     z-index: -1;
     height: 100%; }
     .uza-about-us-area .about-bg-pattern img {
+      opacity: 0.5;
       height: 100%;
       width: auto; }
 
@@ -1344,6 +1347,7 @@ input:focus {
   position: relative;
   z-index: 1; }
   .cta-testimonial-cfa-area .cta-testimonial-cfa-bg-curve {
+    opacity: 0.5;
     position: absolute;
     left: 0;
     top: 0;
@@ -1365,6 +1369,7 @@ input:focus {
       height: 200px;
       margin-bottom: 0; } }
   .breadcrumb-area .breadcrumb-bg-curve {
+    opacity: 0.5;
     position: absolute;
     width: 80%;
     height: 100%;
@@ -1434,6 +1439,7 @@ input:focus {
   position: relative;
   z-index: 1; }
   .uza-blog-area .blog-bg-curve {
+    opacity: 0.5;
     position: absolute;
     width: auto;
     height: 100%;
@@ -1956,15 +1962,15 @@ input:focus {
     text-align: center;
     line-height: 40px; }
     .single-footer-widget .footer-social-info a.facebook {
-      background-color: #4c60ac; }
+      background-color: $primary; }
     .single-footer-widget .footer-social-info a.twitter {
-      background-color: #00bae3; }
+      background-color: $primary; }
     .single-footer-widget .footer-social-info a.pinterest {
-      background-color: #d91a18; }
+      background-color: $primary; }
     .single-footer-widget .footer-social-info a.instagram {
-      background-color: #0085d7; }
+      background-color: $primary; }
     .single-footer-widget .footer-social-info a.youtube {
-      background-color: #e20000; }
+      background-color: $primary; }
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
       .single-footer-widget .footer-social-info a {
         width: 30px;

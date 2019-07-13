@@ -35,23 +35,23 @@
             line-height: 40px;
 
             &.facebook {
-                background-color: #4c60ac;
+                background-color: $primary;
             }
 
             &.twitter {
-                background-color: #00bae3;
+                background-color: $primary;
             }
 
             &.pinterest {
-                background-color: #d91a18;
+                background-color: $primary;
             }
 
             &.instagram {
-                background-color: #0085d7;
+                background-color: $primary;
             }
 
             &.youtube {
-                background-color: #e20000;
+                background-color: $primary;
             }
 
             @media #{$breakpoint-lg} {
