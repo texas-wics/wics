@@ -15,7 +15,7 @@ ul li {
   list-style: none;
 }
 img {
-  height: auto;
+  max-height: 25;
   max-width: 100%;
 }
 .bg-img {

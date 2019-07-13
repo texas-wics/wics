@@ -63,7 +63,7 @@ Last Update: Dec 31, 2018
   padding: 0; }
 
 body {
-  font-family: "Aileron";
+  font-family: "Nunito";
   font-weight: 400;
   font-size: 14px; }
 
@@ -73,16 +73,16 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Aileron";
+  font-family: "Fredoka One";
   color: #303030;
   line-height: 1.4;
-  font-weight: 600; }
+  font-weight: 400; } /* used to be 600 */
 
 a,
 a:active,
 a:focus,
 a:hover {
-  font-family: "Aileron";
+  font-family: "Nunito";
   color: #303030;
   text-decoration: none;
   -webkit-transition-duration: 500ms;
@@ -468,7 +468,7 @@ input:focus {
     top: 0;
     width: 100%;
     position: fixed;
-    background-color: #f9dbbd;
+    background-color: #ffeef0;
     -webkit-box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.1);
     border-bottom: none;
