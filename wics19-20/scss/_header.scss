@@ -10,7 +10,7 @@
 
     .main-header-area {
         @media #{$breakpoint-md} {
-            border-top: 10px solid $heading;
+            border-top: 0px solid $primary;
         }
 
         @media #{$breakpoint-xs} {
