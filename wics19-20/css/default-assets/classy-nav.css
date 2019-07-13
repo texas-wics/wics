@@ -16,7 +16,7 @@ ul li {
 }
 img {
   max-height: 25;
-  max-width: 100%;
+  /*max-width: 100%;*/
 }
 .bg-img {
   background-position: center center;
@@ -70,6 +70,9 @@ img {
   -ms-flex-align: center;
   -ms-grid-row-align: center;
   align-items: center;
+}
+.classy-navbar .nav-img {
+  max-height: 26px;
 }
 .classy-navbar .nav-brand {
   font-size: 26px;
