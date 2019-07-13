@@ -43,7 +43,7 @@ Last Update: Dec 31, 2018
   $dark: #000000; [Dark Color]
   $border: #ebebeb; [Border Color]
   $hover: #beafcb; [Hover Color]
-  $secondary: #a6a6a6; [Secondary Color]
+  $secondary: #f4bfbe; [Secondary Color]
 
   ---------------------------------------------
   [Font Family: 'HK Grotesk']
@@ -366,7 +366,7 @@ input:focus {
     margin-top: 15px;
     font-size: 18px;
     margin-bottom: 0;
-    color: #a6a6a6; }
+    color: #f4bfbe; }
 
 /* :: 5.0 Backtotop CSS */
 #scrollUp {
@@ -436,7 +436,7 @@ input:focus {
     -webkit-transition-duration: 500ms;
     -o-transition-duration: 500ms;
     transition-duration: 500ms;
-    color: #a6a6a6; }
+    color: #f4bfbe; }
     .login-register-btn a span:focus, .login-register-btn a span:hover {
       color: #beafcb; }
   .login-register-btn a:focus, .login-register-btn a:hover {
@@ -703,7 +703,7 @@ input:focus {
         color: #beafcb; }
     .single-welcome-slide .welcome-text h5 {
       font-size: 22px;
-      color: #a6a6a6;
+      color: #f4bfbe;
       margin-bottom: 60px;
       display: block; }
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -862,7 +862,7 @@ input:focus {
     background-color: transparent;
     padding: 0;
     font-weight: 600;
-    color: #a6a6a6;
+    color: #f4bfbe;
     font-size: 22px;
     margin: 0 20px; }
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -936,7 +936,7 @@ input:focus {
     display: inline-block;
     color: #707070; }
     .portfolio-pager a:nth-child(2) {
-      color: #a6a6a6; }
+      color: #f4bfbe; }
     .portfolio-pager a:hover, .portfolio-pager a:focus {
       color: #beafcb; }
     @media only screen and (max-width: 767px) {
@@ -1415,9 +1415,9 @@ input:focus {
       .breadcrumb-area .breadcumb--con .breadcrumb .breadcrumb-item.active:hover {
         color: #beafcb; }
     .breadcrumb-area .breadcumb--con .breadcrumb .breadcrumb-item.active {
-      color: #a6a6a6; }
+      color: #f4bfbe; }
       .breadcrumb-area .breadcumb--con .breadcrumb .breadcrumb-item.active:focus, .breadcrumb-area .breadcumb--con .breadcrumb .breadcrumb-item.active:hover {
-        color: #a6a6a6; }
+        color: #f4bfbe; }
     .breadcrumb-area .breadcumb--con .breadcrumb .page-item:first-child .page-link {
       margin-left: 0;
       border-top-left-radius: 0;
@@ -1459,7 +1459,7 @@ input:focus {
     .single-blog-post .post-content .post-date {
       font-size: 16px;
       text-transform: capitalize;
-      color: #a6a6a6;
+      color: #f4bfbe;
       display: block;
       margin-bottom: 10px; }
       .single-blog-post .post-content .post-date span {
@@ -1501,7 +1501,7 @@ input:focus {
   .blog-details-content .post-content .post-date {
     font-size: 16px;
     text-transform: capitalize;
-    color: #a6a6a6;
+    color: #f4bfbe;
     display: block;
     font-weight: 600; }
     .blog-details-content .post-content .post-date span {
@@ -1533,7 +1533,7 @@ input:focus {
       font-size: 24px; } }
   .blog-details-content p {
     font-size: 18px;
-    color: #a6a6a6;
+    color: #f4bfbe;
     font-weight: 400; }
     @media only screen and (max-width: 767px) {
       .blog-details-content p {
@@ -1749,7 +1749,7 @@ input:focus {
   .cta-content h6 {
     font-size: 18px;
     margin-bottom: 0;
-    color: #a6a6a6; }
+    color: #f4bfbe; }
   .cta-content .call-now-btn a {
     display: inline-block;
     font-size: 30px;
@@ -1762,7 +1762,7 @@ input:focus {
         font-size: 24px; } }
     .cta-content .call-now-btn a span {
       font-size: 18px;
-      color: #a6a6a6; }
+      color: #f4bfbe; }
       @media only screen and (max-width: 767px) {
         .cta-content .call-now-btn a span {
           font-size: 14px; } }
@@ -2021,10 +2021,10 @@ input:focus {
   margin-top: 20px; }
   .copywrite-text p {
     font-size: 16px;
-    color: #a6a6a6;
+    color: #f4bfbe;
     margin-bottom: 0; }
     .copywrite-text p a {
-      color: #a6a6a6; }
+      color: #f4bfbe; }
       .copywrite-text p a:focus, .copywrite-text p a:hover {
         color: #beafcb; }
 
@@ -2072,7 +2072,7 @@ input:focus {
     height: 50px;
     padding: 0 20px;
     border-radius: 30px;
-    color: #a6a6a6;
+    color: #f4bfbe;
     font-size: 14px; }
     .uza-contact-form .form-control:focus {
       box-shadow: none;
