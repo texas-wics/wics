@@ -1327,6 +1327,10 @@ input:focus {
     -webkit-transition-duration: 500ms;
     -o-transition-duration: 500ms;
     transition-duration: 500ms; }
+  .single-service-area .wwd-img {
+    max-height: 250px;
+    padding-bottom: 15px;
+  }
   .single-service-area h5 {
     font-size: 22px;
     display: block;
