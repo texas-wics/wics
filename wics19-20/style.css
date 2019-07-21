@@ -82,15 +82,15 @@ a,
 a:active,
 a:focus,
 a:hover {
-  font-family: "Nunito";
-  color: #303030;
+  font-family: inherit;
+  color: #ccd6eb;
   text-decoration: none;
   -webkit-transition-duration: 500ms;
   -o-transition-duration: 500ms;
   transition-duration: 500ms;
   outline: none;
-  font-size: 16px;
-  font-weight: 600; }
+  font-size: inherit;
+  font-weight: 400; }
 
 li {
   list-style: none; }
