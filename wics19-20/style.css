@@ -1978,6 +1978,34 @@ box-shadow: 0 6px 50px 8px rgba(21, 131, 233, 0.15);*/ }
   position: relative;
   z-index: 1; }
 
+  .footer-social-info a {
+    display: inline-block;
+    align-items: center;
+    color: #ffffff;
+    margin-right: 5px;
+    background-color: #beafcb;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 40px; }
+    .footer-social-info a.facebook {
+      background-color: $primary; }
+    .footer-social-info a.twitter {
+      background-color: $primary; }
+    .footer-social-info a.pinterest {
+      background-color: $primary; }
+    .footer-social-info a.instagram {
+      background-color: $primary; }
+    .footer-social-info a.youtube {
+      background-color: $primary; }
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      .footer-social-info a {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 14px; } }
+
 .single-footer-widget {
   position: relative;
   z-index: 1; }
@@ -1989,32 +2017,6 @@ box-shadow: 0 6px 50px 8px rgba(21, 131, 233, 0.15);*/ }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .single-footer-widget p {
       font-size: 14px; } }
-  .single-footer-widget .footer-social-info a {
-    display: inline-block;
-    color: #ffffff;
-    margin-right: 5px;
-    background-color: #beafcb;
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-    text-align: center;
-    line-height: 40px; }
-    .single-footer-widget .footer-social-info a.facebook {
-      background-color: $primary; }
-    .single-footer-widget .footer-social-info a.twitter {
-      background-color: $primary; }
-    .single-footer-widget .footer-social-info a.pinterest {
-      background-color: $primary; }
-    .single-footer-widget .footer-social-info a.instagram {
-      background-color: $primary; }
-    .single-footer-widget .footer-social-info a.youtube {
-      background-color: $primary; }
-    @media only screen and (min-width: 992px) and (max-width: 1199px) {
-      .single-footer-widget .footer-social-info a {
-        width: 30px;
-        height: 30px;
-        line-height: 30px;
-        font-size: 14px; } }
   .single-footer-widget .our-link {
     position: relative;
     z-index: 1; }
@@ -2058,6 +2060,13 @@ box-shadow: 0 6px 50px 8px rgba(21, 131, 233, 0.15);*/ }
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
         .single-footer-widget .footer-content h3 {
           font-size: 20px; } }
+
+  .row-center {
+    margin-bottom: 30px;
+    .row-center a {
+      text-align: center;
+    }
+  }
 
 .copywrite-text {
   position: relative;
