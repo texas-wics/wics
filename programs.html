@@ -1,264 +1,412 @@
-<!DOCTYPE HTML>
-<!--
-Strongly Typed by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-	<title>Programs - UT Women in Computer Science</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-	<link rel="stylesheet" href="assets/css/main.css" />
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+    <meta charset="UTF-8">
+    <meta name="description" content="uza - Model Agency HTML5 Template">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Title -->
+    <title>UT Austin WiCS</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="./img/core-img/favicon.ico">
+
+    <!-- Core Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts API -->
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Nunito&display=swap" rel="stylesheet">
+
 </head>
 
-<link rel='icon' href='favicon.ico' type='image/x-icon'/ >
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="wrapper">
+            <div class="cssload-loader"></div>
+        </div>
+    </div>
 
-<body class="right-sidebar">
-	<div id="page-wrapper">
+    <!-- ***** Top Search Area Start ***** -->
+    <div class="top-search-area">
+        <!-- Search Modal -->
+        <div class="modal fade" id="searchModal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <!-- Close Button -->
+                        <button type="button" class="btn close-btn" data-dismiss="modal"><i class="fa fa-times"></i></button>
+                        <!-- Form -->
+                        <form action="index.html" method="post">
+                            <input type="search" name="top-search-bar" class="form-control" placeholder="Search and hit enter...">
+                            <button type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ***** Top Search Area End ***** -->
 
-		<!-- Header -->
-		<div id="header-wrapper">
-			<div id="header" class="container">
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area">
+        <!-- Main Header Start -->
+        <div class="main-header-area">
+            <div class="classy-nav-container breakpoint-off">
+                <!-- Classy Menu -->
+                <nav class="classy-navbar justify-content-between" id="uzaNav">
 
-				<!-- Logo -->
-				<h1 id="logo"><a href="index.html">Women in Computer Science</a></h1>
-				<p>University of Texas at Austin</p>
+                    <!-- Logo -->
+                    <a class="nav-brand" href="index.html"><img class="nav-img" src="./img/core-img/nav.gif" alt=""></a>
 
-				<!-- Nav -->
-				<nav id="nav">
-					<ul>
-						<li><a class="icon fa-home" href="index.html"><span>Home</span></a></li>
-						<li>
-							<a href="leadership.html" class="icon fa-users"><span>About Us</span></a>
-							<ul>
-								<li><a href="leadership.html">Leadership</a></li>
-								<li><a href="sponsors.html">Sponsors</a></li>
-							</ul>
-						</li>
-						<li><a class="icon fa-university" href="programs.html"><span>Programs</span></a>
-							<ul>
-								<li><a href="mentorship.html">Mentorship</a></li>
-							</ul>
-						</li>
-						<li><a class="icon fa-calendar" href="calendar.html"><span>Calendar</span></a></li>
-						<li><a class="icon fa-bar-chart-o" href="resources.html"><span>Resources</span></a></li>
-						<li><a class="icon fa-laptop" href="hackathon19.html"><span>Hackathon</span></a></li>
-						<li><a class="icon fa-envelope" href="contact.html"><span>Contact</span></a>
-							<!-- <ul>
-							<li><a href="https://www.facebook.com/texaswics">Facebook page</a></li>
-							<li><a href="https://www.facebook.com/groups/WiCSstudentorg/about/">Facebook group</a></li>
-							<li><a href="https://www.instagram.com/utcs_women/">Instagram</a></li>
-							<li><a href="https://twitter.com/texaswics">Twitter</a></li>
-						</ul> -->
-					</li>
+                    <!-- Navbar Toggler -->
+                    <div class="classy-navbar-toggler">
+                        <span class="navbarToggler"><span></span><span></span><span></span></span>
+                    </div>
 
-				</ul>
-			</nav>
+                    <!-- Menu -->
+                    <div class="classy-menu">
+                        <!-- Menu Close Button -->
+                        <div class="classycloseIcon">
+                            <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                        </div>
 
-		</div>
-	</div>
+                         <!-- Nav Start -->
+                         <div class="classynav">
+                            <ul id="nav">
+                                <li><a href="./about.html">About</a></li>
+                                <li class="current-item"><a href="./programs.html">Programs</a></li>
+                                <li><a href="./calendar.html">Calendar</a></li>
+                                <li><a href="./resources.html">Resources</a></li>
+                                <li><a href="./hackathon.html">Hackathon</a></li>
+                                <li><a href="./contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                        <!-- Nav End -->
 
-	<!-- Main -->
-	<div id="main-wrapper">
-		<div id="main" class="container">
-			<div class="row">
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
 
-				<!-- Content -->
-				<div id="content" class="8u 12u(mobile)">
+    <!-- ***** Breadcrumb Area Start ***** -->
+    <div class="breadcrumb-area">
+        <div class="container h-100">
+            <div class="row h-100 align-items-end">
+                <div class="col-12">
+                    <div class="breadcumb--con">
+                        <h2 class="title">Programs</h2>
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="./index.html"><i class="fa fa-home"></i> Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Programs</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-					<!-- Post -->
-					<article class="box post">
-						<header>
-							<h2>Learn about our programs!</h2>
-						</header>
+        <!-- Background Curve -->
+        <div class="breadcrumb-bg-curve">
+            <img src="./img/core-img/updated-binary-curve-5.png" alt="">
+        </div>
+    </div>
+    <!-- ***** Breadcrumb Area End ***** -->
 
-						<article class="box highlight">
-							<header>
-								<h3>Mentorship</h3>
-							</header>
-							<ul class="actions">
-								<li><a href="mentorship.html" class="button icon fa-file">Learn about our mentorship programs here!</a></li>
-							</ul>
-						</article>
+    <!-- ***** Programs Area Start ***** -->
+    <section class="uza-programs-area section-padding-80-0">
+        <div class="container">
+            <div class="row">
 
-						<article class="box highlight">
-							<header>
-								<h3>Corporate</h3>
-							</header>
-							<div class="4u 12u(mobile)">
-								<a href="#" class="image left"><img src="images/Corporate.jpg" alt="" /></a>
-							</div>
+                <!-- Single Service Area -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-service-area mb-80">
+                        <div class="single-portfolio-slide">
+                            <img src="./img/bg-img/corporate.jpg" alt="">
+                            <div class="overlay-effect">
+                                <h6>Highlights</h6>
+                                <p>🤝 networking events
+                                <br>👩‍💻 workshops
+                                <br>🌇 on-site tours
+                                <br>👩‍💼 job opportunities</p>
+                            </div>
+                        </div>
+                        <h5>Corporate</h5>
+                        <p>The Corporate Liaisons organize and coordinate events with Corporate Sponsors and FoCS Companies. We host a variety of events with the companies, ranging from networking over succulent planting to demonstrating technical skills through coding competitions. We also work with these companies to provide workshops, judges, and prizes for our annual hackathon.</p>
+                    </div>
+                </div>
 
-							<p>The Corporate Liasons organize and coordinate events with Corporate Sponsors and FoCS Companies. We host a variety of events with the companies,
-								ranging from networking over succulent planting to demonstrating technical skills through coding competitions.
-								We also work with these companies to provide workshops, judges, and prizes for our annual hackathon.</p>
-								<ul class="actions">
-									<li><a href="mailto:wicscorporate@gmail.com" class="button icon fa-file">Questions? Contact the Corporate team!</a></li>
-								</ul>
-							</article>
+                <!-- Single Service Area -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-service-area mb-80">
+                        <div class="single-portfolio-slide">
+                            <img src="./img/bg-img/outreach.jpg" alt="">
+                            <div class="overlay-effect">
+                                <h6>Highlights</h6>
+                                <p>👩‍🏫 local volunteering events
+                                <br>🤘 explore ut
+                                <br>👧 girl day @ ut
+                                <br>👩‍👧  follow the leader day</p>
+                            </div>
+                        </div>
+                        <h5>Outreach</h5>
+                        <p>Outreach within WiCS organizes volunteer events with local schools teaching young kids about CS, participates in outreach events such as Explore UT, Introduce a Girl to Engineering Day, and Girl Scouts events.
 
+                            Wondering what it is really like to be a female computer science major at UT Austin? Follow the unique experiences of female-identifying UTCS students on our blog.</p>
+                    </div>
+                </div>
 
+                <!-- Single Service Area -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-service-area mb-80">
+                        <div class="single-portfolio-slide">
+                            <img src="./img/bg-img/academic.jpg" alt="">
+                            <div class="overlay-effect">
+                                <h6>Highlights</h6>
+                                <p>📚 study groups
+                                <br>📝 exam review sessions
+                                <br>🐂 registration review
+                                <br>👩‍🏫 faculty lunches</p>
+                            </div>
+                        </div>
+                        <h5>Academic</h5>
+                        <p>The Academic Team aims to help WiCS members feel prepared for their classes. We organize study groups with classmates, exam review sessions with upperclassmen, and lunches with our CS faculty. Geared towards academics, our programs ensure WiCS members are comfortable with their coursework. Feel free to contact us with any questions!</p>
+                    </div>
+                </div>
 
-							<article class="box highlight">
-								<header>
-									<h3>Outreach</h3>
-								</header>
-								<div class = "4u 12u(mobile)">
-									<a href="#" class="image left"><img src="images/Outreach.jpg" alt="" /></a>
-								</div>
-								<p>Outreach within wics organizes volunteer events with local schools teaching young kids about CS,
-									participates in outreach events such as Explore UT, Introduce a Girl to Engineering Day,
-									and Girl Scouts events and in charge of social media to represent WiCS at UT.</p>
-									<p>Wondering what it is really like to be a female computer science major at UT Austin? Follow the unique experiences of female UTCS students here!</p>
-									<ul class = "actions">
-										<li><a href="https://medium.com/@wicspresident/texas-women-in-computer-science-outreach-blog-d494a99045b5" class="button icon fa-file">Blog link here!</a></li>
-									</ul>
-									<ul class="actions">
-										<li><a href="leadership.html#outreach" class="button icon fa-file">Questions? Contact the outreach team!</a></li>
-									</ul>
-								</article>
+                <!-- Single Service Area -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-service-area mb-80">
+                        <div class="single-portfolio-slide">
+                            <img src="./img/bg-img/social.jpg" alt="">
+                            <div class="overlay-effect">
+                                <h6>Highlights</h6>
+                                <p>🎉 wics kickoff
+                                <br>⛸️ social events
+                                <br>👜 brown bag lunches</p>
+                            </div>
+                        </div>
+                        <h5>Social</h5>
+                        <p>The social events in WiCS create a community within the department that helps students have a support system. Throughout the semester we have fun events such as kayaking and bowling. Once a month we organize brown bags in which girls can meet other members and an officer on a smaller scale.</p>
+                    </div>
+                </div>
 
-								<article class="box highlight">
-									<header>
-										<h3>Academic</h3>
-									</header>
-									<div class = "4u 12u(mobile)">
-										<a href="#" class="image left"><img src="images/Speaker2.jpg" alt="" /></a>
-									</div>
-									<p>The Academic Team aims to help WiCS members feel prepared for their classes.
-										We organize study groups with classmates, exam review sessions with upperclassmen,
-										and lunches with our CS faculty. Geared towards academics,
-										our programs ensure WiCS members are comfortable with their coursework.
-										Feel free to contact us with any questions!</p>
-										<ul class="actions">
-											<li><a href="mailto:wicsacademic@gmail.com" class="button icon fa-file">Questions? Contact the Academic team!</a></li>
-										</ul>
-									</article>
+                <!-- Single Service Area -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-service-area mb-80">
+                        <div class="single-portfolio-slide">
+                            <img src="./img/bg-img/technical.jpg" alt="">
+                            <div class="overlay-effect">
+                                <h6>Highlights</h6>
+                                <p>👩‍💻 workshops</p>
+                            </div>
+                        </div>
+                        <h5>Technical</h5>
+                        <p>WiCS organizes technical workshops to teach members new technical skills that they may not learn in class. Our workshops range from coding competitions, introduction to gaming, introduction to app development, and CTFs co-hosted with other student orgs.</p>
+                    </div>
+                </div>
 
-									<article class="box highlight">
-										<header>
-											<h3>Social</h3>
-										</header>
-										<div class = "4u 12u(mobile)">
-											<a href="#" class="image left"><img src="images/Kayaking.jpg" alt="" /></a>
-										</div>
-										<p>The social events in WiCS create a community within the department that helps students have a support system.
-											Throughout the semester we have fun events such as kayaking and bowling.
-											Once a month we organize brown bags in which girls can meet other members and an officer on a smaller scale.</p>
-											<ul class="actions">
-												<li><a href="mailto:Karishmap@utexas.edu" class="button icon fa-file">Questions? Contact social!</a></li>
-											</ul>
-										</article>
+                <!-- Single Service Area -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-service-area mb-80">
+                        <div class="single-portfolio-slide">
+                            <img src="./img/bg-img/wicshacks.jpg" alt="">
+                            <div class="overlay-effect">
+                                <h6>Highlights</h6>
+                                <p>👩‍💻 faculty lunches</p>
+                            </div>
+                          </div>
+                        <h5>Hackathon</h5>
+                        <p>WiCS hosts an annual all female hackathon to create a space in which women feel comfortable. This year we will be expanding our hackathon to two days. The first day will include technical workshops and talks to prepare you for the hackathon. The second day will be a 12 hour hackahon with prize categories hosted by our sponsors.</p>
+                    </div>
+                </div>
 
-										<article class="box highlight">
-											<header>
-												<h3>Makers</h3>
-											</header>
-											<div class = "4u 12u(mobile)">
-												<a href="#" class="image left"><img src="images/Makers.jpg" alt="" /></a>
-											</div>
-											<p>Makers is dedicated to inviting CS students who often have very limited exposure to embedded systems,
-												which is the interaction of software and hardware. We mainly explore this using micro-controllers,
-												namely Arduino boards.</p>
-												<ul class="actions">
-													<li><a href="mailto:anusha.paul@utexas.edu" class="button icon fa-file">Questions? Contact Makers!</a></li>
-												</ul>
-											</article>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Services Area End ***** -->
 
-											<!-- <span class="image featured"><img src="images/pic04.jpg" alt="" /></span>
-											<h3>Right is also not left</h3> -->
+    <!-- ***** CTA, Testimonial & CFA Area Start ***** -->
+    <section class="cta-testimonial-cfa-area">
+        <!-- Background Curve -->
+        <div class="cta-testimonial-cfa-bg-curve">
+            <img src="./img/core-img/circuits-refined-2.png" alt="">
+        </div>
 
-										</article>
+        <!-- ***** CTA Area Start ***** -->
+        <div class="uza-cta-area section-padding-80-0">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-12">
+                        <div class="cta-content mb-80">
+                            <h2>Mentorship Programs</h2>
+                            <h6>Learn about the three main mentorship programs that WiCS provides.</h6>
+                        </div>
+                    </div>
+                </div>
+              </div>
 
-									</div>
+        <div class="container">
+            <div class="row">
 
+                <!-- Single Service Area -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-service-area mb-80">
+                        <div class="single-portfolio-slide">
+                            <img src="./img/bg-img/nelldale.jpg" alt="">
+                            </div>
+                        <h5>Nell Dale Families</h5>
+                        <p>WiCS Nell Dale Families is an opportunity for members to connect with a mix of under and upperclassmen on a smaller scale. Each officer leads a family and members earn points for attending events. The family with the most points wins a prize at the end of the year! This program is a great way to receive support and develop a connection with other students in your classes and those who can offer advice.
+                    </div>
+                </div>
 
-									<!-- Sidebar -->
-									<div id="sidebar" class="4u 12u(mobile)">
+                <!-- Single Service Area -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-service-area mb-80">
+                        <div class="single-portfolio-slide">
+                            <img src="./img/bg-img/corporatementor.jpeg" alt="">
+                            </div>
+                        <h5>Corporate Mentorship</h5>
+                        <p>WiCS Corporate Mentorship program, in partnership with UTCS alumni, is a unique opportunity for current and incoming members to establish a mentoring relationship with female employees working in the tech industry. We will match accepted students with a mentor who shares similar interests, both technical and non-technical. Incoming female-identifying UTCS students will be given more of a support system to navigate what might be their first forays into the corporate world, while upperclassmen will be able to build and expand upon their existing knowledge base.</p>
+                    </div>
+                </div>
 
-										<!-- Excerpts -->
-										<section>
-											<ul class="divided">
-												<li>
+                <!-- Single Service Area -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-service-area mb-80">
+                        <div class="single-portfolio-slide">
+                            <img src="./img/bg-img/graduate.jpg" alt="">
+                            </div>
+                        <h5>Graduate Mentorship</h5>
+                        <p>This program is an opportunity for undergraduate women who are applying or considering applying to graduate school to connect with female graduate students. We will pair graduate students with two to three undergraduate students based on their interests. Grad student mentors can provide guidance on preparing for graduate school, including getting involved in undergraduate research, and applying to graduate school, whether for a Master’s or a Ph.D. Mentors will meet with their mentees at least once a month.</p>
+                    </div>
+                </div>
 
-													<!-- Excerpt -->
-													<header>
-														<span style='font-style: italic;'>
-															<h3><a href="#">Programs</a></h3>
-														</span>
-													</header>
+                    <!-- <div class="col-12 col-lg-4">
+                        <div class="cta-content mb-80">
+                            <div class="call-now-btn">
+                                <a href="#"><span>Call us now:</span> (+65) 1234 5678</a>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+      </section>
 
-													<header>
-														<h3><a href="mentorship.html">Mentorship</a></h3>
-													</header>
-												</li>
+        <section class="uza-programs-area section-padding-80-0">
+            <div class="container">
+                <div class="row">
+                  <!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="http://lightwidget.com/widgets/fc829189ca705891879786a3649725c9.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
+                </div>
+          </div>
+        </section>
 
-											</ul>
-										</section>
+        <!-- ***** Footer Area Start ***** -->
+        <footer class="footer-area section-padding-80-0">
+             <div class="container">
+                 <div class="row justify-content-between">
 
-										<!-- Highlights -->
-										<section>
-											<ul class="divided">
-												<li>
+                     <!-- Single Footer Widget -->
+                     <div class="col-12 col-sm-6 col-lg-3">
+                         <div class="single-footer-widget mb-80">
+                             <!-- Widget Title -->
+                             <h4 class="widget-title">About Us</h4>
+                             <ul>
+                               <li><p>WiCS @ UT Austin</p></li>
+                               <li><p>is a non-profit organization dedicated to building a community of women in Computer Science.</p></li>
+                             </ul>
+                        </div>
+                     </div>
 
-													<!-- Highlight -->
-													<article class="box highlight">
-														<header>
-															<h3><a href="#">Learn about the officers!</a></h3>
-														</header>
-														<a href="leadership.html" class="image left"><img src="images/HolidayParty.jpg" alt="" /></a>
-														<p>Our fantastic officer team leads these initiatives.
-															Learn about them and find their contact information on the Leadership page!</p>
-															<ul class="actions">
-																<li><a href="leadership.html" class="button icon fa-file">Go to Leadership page</a></li>
-															</ul>
-														</article>
+                     <!-- Single Footer Widget -->
+                     <div class="col-12 col-sm-6 col-lg-3">
+                         <div class="single-footer-widget mb-80">
+                             <!-- Widget Title -->
+                             <h4 class="widget-title">Quick Links</h4>
 
-													</li>
-													<li>
+                             <!-- Nav -->
+                             <nav>
+                                 <ul class="our-link">
+                                     <li><a href="./about.html">About</a></li>
+                                     <li><a href="./programs.html">Programs</a></li>
+                                     <li><a href="./hackathon.html">Hackathon</a></li>
+                                     <li><a href="./contact.html">Contact</a></li>
+                                 </ul>
+                             </nav>
+                         </div>
+                     </div>
 
+                     <!-- Single Footer Widget -->
+                     <div class="col-12 col-sm-6 col-lg-3">
+                         <div class="single-footer-widget mb-80">
+                             <!-- Widget Title -->
+                             <h4 class="widget-title">Resources</h4>
 
-													</li>
-												</ul>
-											</section>
+                             <!-- Nav -->
+                             <nav>
+                                 <ul class="our-link">
+                                     <li><a href="./blog.html">Blog</a></li>
+                                     <li><a href="./calendar.html">Calendar</a></li>
+                                     <li><a href="https://forms.gle/qRaoXd5oQ4jDQtWj6" target="_blank" >Member Registration</a></li>
+                                     <li><a href="https://forms.gle/d2seaEMtLpMFPsnG6" target="_blank">Update Resume</a></li>
+                                 </ul>
+                             </nav>
+                         </div>
+                     </div>
 
-										</div>
+                     <!-- Single Footer Widget -->
+                     <div class="col-12 col-sm-6 col-lg-3">
+                         <div class="single-footer-widget mb-80">
+                             <!-- Widget Title -->
+                             <h4 class="widget-title">Reach Out</h4>
 
-									</div>
-								</div>
-							</div>
+                             <!-- Footer Content -->
+                             <div class="footer-content mb-15">
+                               <ul>
+                                 <li><h6><a href="mailto:wicspresident@gmail.com">wicspresident@gmail.com</a></h6></li>
+                                 <li><p>University of Texas at Austin
+                                     <br>Gates Dell Complex, Room 3.314
+                                     <br>2317 Speedway, Austin, TX</p></li>
+                               </ul>
+                             </div>
+                         </div>
+                     </div>
 
-							<!-- Footer -->
-							<div id="footer-wrapper" align="center">
-								<br />
-								Connect with us!
-								<br />
-								<a href="mailto:wicspresident@gmail.com" class="icon fa-envelope"></a>
-								<a href="https://www.facebook.com/texaswics" class="icon fa-facebook"></a>
-								<a href="https://www.instagram.com/utcs_women" class="icon fa-instagram"></a>
-								<div class="container">
-									<br />
-									&copy; 2018 University of Texas Women in Computer Science
-									<br />
-									<br />
-								</div>
-							</div>
+                 </div>
 
-						</div>
+                 <!-- Social Info -->
+                 <div class="footer-social-info">
+                     <a href="https://www.facebook.com/texaswics/" class="facebook" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a>
+                     <a href="https://www.instagram.com/utwics/" class="instagram" data-toggle="tooltip" data-placement="top" title="Instagram"><i class="fa fa-instagram"></i></a>
+                     <a href="https://twitter.com/texaswics?lang=en" class="twitter" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a>
+                 </div>
 
-						<!-- Scripts -->
-						<script src="assets/js/jquery.min.js"></script>
-						<script src="assets/js/jquery.dropotron.min.js"></script>
-						<script src="assets/js/skel.min.js"></script>
-						<script src="assets/js/skel-viewport.min.js"></script>
-						<script src="assets/js/util.js"></script>
-						<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-						<script src="assets/js/main.js"></script>
+                 <div class="row-center">
+                   <a href="./credits.html"><p style="text-align:center;"><span>Credits</span></p></a>
+                 </div>
 
-					</body>
-					</html>
+             </div>
+         </footer>
+         <!-- ***** Footer Area End ***** -->
+
+    <!-- ******* All JS Files ******* -->
+    <!-- jQuery js -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- All js -->
+    <script src="js/uza.bundle.js"></script>
+    <!-- Active js -->
+    <script src="js/default-assets/active.js"></script>
+
+</body>
+
+</html>

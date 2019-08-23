@@ -1,230 +1,380 @@
-<!DOCTYPE HTML>
-<!--
-Strongly Typed by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-	<title>Contact - UT Women in Computer Science</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-	<link rel="stylesheet" href="assets/css/main.css" />
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+    <meta charset="UTF-8">
+    <meta name="description" content="uza - Model Agency HTML5 Template">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Title -->
+    <title>UT Austin WiCS</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="./img/core-img/favicon.ico">
+
+    <!-- Core Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts API -->
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Nunito&display=swap" rel="stylesheet">
+
 </head>
 
-<link rel='icon' href='favicon.ico' type='image/x-icon'/ >
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="wrapper">
+            <div class="cssload-loader"></div>
+        </div>
+    </div>
 
-<body class="right-sidebar">
-	<div id="page-wrapper">
+    <!-- ***** Top Search Area Start ***** -->
+    <div class="top-search-area">
+        <!-- Search Modal -->
+        <div class="modal fade" id="searchModal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <!-- Close Button -->
+                        <button type="button" class="btn close-btn" data-dismiss="modal"><i class="fa fa-times"></i></button>
+                        <!-- Form -->
+                        <form action="index.html" method="post">
+                            <input type="search" name="top-search-bar" class="form-control" placeholder="Search and hit enter...">
+                            <button type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ***** Top Search Area End ***** -->
 
-		<!-- Header -->
-		<div id="header-wrapper">
-			<div id="header" class="container">
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area">
+        <!-- Main Header Start -->
+        <div class="main-header-area">
+            <div class="classy-nav-container breakpoint-off">
+                <!-- Classy Menu -->
+                <nav class="classy-navbar justify-content-between" id="uzaNav">
 
-				<!-- Logo -->
-				<h1 id="logo"><a href="index.html">Women in Computer Science</a></h1>
-				<p>University of Texas at Austin</p>
+                    <!-- Logo -->
+                    <a class="nav-brand" href="index.html"><img class="nav-img" src="./img/core-img/nav.gif" alt=""></a>
 
-				<!-- Nav -->
-				<nav id="nav">
-					<ul>
-						<li><a class="icon fa-home" href="index.html"><span>Home</span></a></li>
-						<li>
-							<a href="leadership.html" class="icon fa-users"><span>About Us</span></a>
-							<ul>
-								<li><a href="leadership.html">Leadership</a></li>
-								<li><a href="sponsors.html">Sponsors</a></li>
-							</ul>
-						</li>
-						<li><a class="icon fa-university" href="programs.html"><span>Programs</span></a>
-							<ul>
-								<li><a href="mentorship.html">Mentorship</a></li>
-							</ul>
-						</li>
-						<li><a class="icon fa-calendar" href="calendar.html"><span>Calendar</span></a></li>
-						<li><a class="icon fa-bar-chart-o" href="resources.html"><span>Resources</span></a></li>
-						<li><a class="icon fa-laptop" href="hackathon19.html"><span>Hackathon</span></a></li>
-						<li><a class="icon fa-envelope" href="contact.html"><span>Contact</span></a>
-							<!-- <ul>
-							<li><a href="https://www.facebook.com/texaswics">Facebook page</a></li>
-							<li><a href="https://www.facebook.com/groups/WiCSstudentorg/about/">Facebook group</a></li>
-							<li><a href="https://www.instagram.com/utcs_women/">Instagram</a></li>
-							<li><a href="https://twitter.com/texaswics">Twitter</a></li>
-						</ul> -->
-					</li>
+                    <!-- Navbar Toggler -->
+                    <div class="classy-navbar-toggler">
+                        <span class="navbarToggler"><span></span><span></span><span></span></span>
+                    </div>
 
-				</ul>
-			</nav>
+                    <!-- Menu -->
+                    <div class="classy-menu">
+                        <!-- Menu Close Button -->
+                        <div class="classycloseIcon">
+                            <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                        </div>
 
-		</div>
-	</div>
+                        <!-- Nav Start -->
+                        <div class="classynav">
+                            <ul id="nav">
+                                <li><a href="./about.html">About</a></li>
+                                <li><a href="./programs.html">Programs</a></li>
+                                <li><a href="./calendar.html">Calendar</a></li>
+                                <li><a href="./resources.html">Resources</a></li>
+                                <li><a href="./hackathon.html">Hackathon</a></li>
+                                <li class="current-item"><a href="./contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                        <!-- Nav End -->
 
-	<!-- Main -->
-	<div id="main-wrapper">
-		<div id="main" class="container">
-			<div class="row">
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
 
-				<!-- Content -->
-				<div id="content" class="8u 12u(mobile)">
+    <!-- ***** Breadcrumb Area Start ***** -->
+    <div class="breadcrumb-area">
+        <div class="container h-100">
+            <div class="row h-100 align-items-end">
+                <div class="col-12">
+                    <div class="breadcumb--con">
+                        <h2 class="title">Contact</h2>
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="./index.html"><i class="fa fa-home"></i> Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Contact</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-					<!-- Post -->
-					<article class="box post">
-						<header>
-							<h2>Contact:</h2>
-						</header>
-						<div class="row">
-							<div class="12u 12u(mobile)">
-								<!-- <section>
-								<form method="post" action="#">
-								<div class="row 50%">
-								<div class="6u 12u(mobile)">
-								<input name="name" placeholder="Name" type="text" />
-							</div>
-							<div class="6u 12u(mobile)">
-							<input name="email" placeholder="Email" type="text" />
-						</div>
-					</div>
-					<div class="row 50%">
-					<div class="12u">
-					<textarea name="message" placeholder="Message"></textarea>
-				</div>
-			</div>
-			<div class="row 50%">
-			<div class="12u">
-			<a href="#" class="form-button-submit button icon fa-envelope">Send Message</a>
-		</div>
-	</div>
-</form>
-</section> -->
-</div>
-<div class="12u 12u(mobile)">
-	<section>
-		<div class="row">
-			<div class="6u 12u(mobile)">
-				<ul class="icons">
-					<li class="icon fa-envelope">
-						<a href="mailto:wicspresident@gmail.com">wicspresident@gmail.com</a>
-					</li>
-					<li class="icon fa-envelope">
-						<a href="mailto:wicscorporate@gmail.com">wicscorporate@gmail.com</a>
-					</li>
-					<li class="icon fa-envelope">
-						<a href="mailto:wicsacademic@gmail.com">wicsacademic@gmail.com</a>
-					</li>
-					<li class="icon fa-home">
-						Gates Dell Complex <br />
-						Office: 3.314<br />
-						12317 Speedway <br />
-						Austin, TX 78712<br />
-						USA
-					</li>
+        <!-- Background Curve -->
+        <div class="breadcrumb-bg-curve">
+            <img src="./img/core-img/updated-binary-curve-5.png" alt="">
+        </div>
+    </div>
+    <!-- ***** Breadcrumb Area End ***** -->
 
-				</ul>
-			</div>
-			<div class="6u 12u(mobile)">
-				<ul class="icons">
-					<li class="icon fa-facebook">
-						<a href="https://www.facebook.com/texaswics">facebook.com/texaswics</a>
-						<li class="icon fa-instagram">
-							<a href="https://www.instagram.com/utcs_women/">instagram.com/utcs_women</a>
-						</li>
-					</li>
-					<li class="icon fa-twitter">
-						<a href="https://www.twitter.com/texaswics">@texaswics</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</section>
-	<p>If you have a particular inquiry related to a specific officer's position, you can find their email on the <a href="leadership.html">Leadership page</a>!</p>
-</div>
-</div>
+    <!-- ***** Contact Area Start ***** -->
+    <section class="uza-contact-area section-padding-80">
+        <div class="container">
+            <div class="row justify-content-between">
+              <!-- ***** Services Area Start ***** -->
+              <section class="uza-services-area section-padding-80-0">
+                  <div class="container">
 
-</article>
+                      <div class="row">
 
-</div>
+                          <!-- Single Service Area -->
+                          <div class="col-12 col-lg-4">
+                              <div class="single-service-area" style="margin: 50px; margin-top:10px;">
+                                  <!-- Service Icon
+                                  <div class="service-icon">
+                                      <i class="icon_cone_alt"></i>
+                                  </div> -->
+                                  <img class="soc-img" src="./images/icons/facebook.png" alt="">
+                                  <a href="https://www.facebook.com/texaswics/"><h5>@texaswics</h5></a>
+                              </div>
+                          </div>
+                          <br></br>
+                          <!-- Single Service Area -->
+                          <div class="col-12 col-lg-4">
+                              <div class="single-service-area" style="margin: 50px;  margin-top:10px;">
+                                  <!-- Service Icon
+                                  <div class="service-icon">
+                                      <i class="icon_piechart"></i>
+                                  </div>  -->
+                                  <img class="soc-img" src="./images/icons/instagram.png" alt="">
+                                  <a href="https://www.instagram.com/utwics/"><h5>@utwics</h5></a>
+                              </div>
+                          </div>
 
-<!-- Sidebar -->
-<div id="sidebar" class="4u 12u(mobile)">
+                          <!-- Single Service Area -->
+                          <div class="col-12 col-lg-4">
+                              <div class="single-service-area" style="margin: 50px;  margin-top:10px;">
+                                  <!-- Service Icon
+                                  <div class="service-icon">
+                                      <i class="icon_easel"></i>
+                                  </div> -->
+                                  <img class="soc-img" src="./images/icons/twitter.png" alt="">
+                                  <a href="https://twitter.com/texaswics?lang=en"><h5>@texaswics</h5></a>
+                              </div>
+                          </div>
 
-	<!-- Highlights -->
-	<section>
-		<ul class="divided">
-			<li>
+                      </div>
+                     </div>
+              </section>
+              <!-- ***** Services Area End ***** -->
+                <!-- Contact Form
+                <div class="col-12 col-lg-8">
+                    <div class="uza-contact-form mb-80">
+                        <div class="contact-heading mb-50">
+                            <h4>Thank you for your interest. <br>Please fill out the form below to reach out to us.</h4>
+                        </div>
+                        <form action="#" method="post">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control mb-30" name="full-name" placeholder="Name">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control mb-30" name="email" placeholder="Email">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control mb-30" name="full-name" placeholder="Phone">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control mb-30" name="email" placeholder="Organization">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <textarea class="form-control mb-30" name="message" rows="8" cols="80" placeholder="Message"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn uza-btn btn-3 mt-15">Submit</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+              -->
+                <!-- Single Contact Card -->
+                <div class="col-12 col-lg-3">
+                    <div class="contact-sidebar-area mb-100">
+                        <!-- Single Sidebar Area -->
+                        <div class="single-contact-card mb-50">
+                            <h4>Contact Us</h4>
+                            <h6>WiCS President</h6>
+                            <a href = "mailto: wicspresident@gmail.com"><strong>wicspresident@gmail.com</strong></a><br><br>
+                            <h6>WiCS Corporate</h6>
+                            <a href = "mailto: wicscorporate@gmail.com"><strong>wicscorporate@gmail.com</strong></a><br><br>
+                            <h6>WiCS Academic</h6>
+                            <a href = "mailto: wicsacademic@gmail.com"><strong>wicsacademic@gmail.com</strong></a><br><br>
+                            <h6>University of Texas at Austin
+                                <br>Gates Dell Complex, Room 3.314
+                                <br>2317 Speedway, Austin, TX</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-				<!-- Highlight -->
-				<article class="box highlight">
-					<header>
-						<h3><a href="#">Join our Facebook group!</a></h3>
-					</header>
-					<div class="6u 12u(mobile)">
-						<a href="https://www.facebook.com/groups/WiCSstudentorg/" class="image left"><img src="images/fblogo.png" alt="" /></a>
-					</div>
-					<p>Be updated on upcoming events and resources and connect with other women in UTCS!</p>
-					<ul class="actions">
-						<li><a href="https://www.facebook.com/groups/WiCSstudentorg/" class="button icon fa-file">Visit Facebook Group</a></li>
-					</ul>
-				</article>
+            <div class="row">
+                <!-- Google Maps -->
+                <div class="col-12">
+                    <div class="google-maps">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3445.27358278224!2d-97.7387817848792!3d30.28627228179497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b59c98544379%3A0x1a0c2b90248ca2ed!2sGates+Dell+Complex%2C+2317+Speedway%2C+Austin%2C+TX+78712!5e0!3m2!1sen!2sus!4v1560007814634!5m2!1sen!2sus" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Contact Area End ***** -->
 
-			</li>
-			<li>
 
-				<!-- Highlight -->
-				<article class="box highlight">
-					<header>
-						<h3><a href="#">Follow our Instagram!</a></h3>
-					</header>
-					<div class="6u 12u(mobile)">
-						<a href="" class="image left"><img src="images/instalogo.jpg" alt="" /></a>
-					</div>
-					<p>Where we feature current students, learn all about the women within the UT Computer Science department on our Instagram account!</p>
-					<ul class="actions">
-						<li><a href="https://www.instagram.com/utcs_women/" class="button icon fa-file">Follow</a></li>
-					</ul>
-				</article>
 
-			</li>
-		</ul>
-	</section>
+    <!-- ***** Newsletter Area Start *****
+    <section class="uza-newsletter-area">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="nl-content mb-80">
+                        <h2>Subscribe to our Newsletter</h2>
+                        <p>Subscribe to our newsletter to get notification about new updates, etc...</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-5">
+                    <div class="nl-form mb-80">
+                        <form action="#" method="post">
+                            <input type="email" name="nl-email" value="" placeholder="Your Email">
+                            <button type="submit">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="border-line"></div>
+        </div>
+    </section>
+    ***** Newsletter Area End ***** -->
 
-</div>
+    <section class="uza-programs-area section-padding-80-0">
+        <div class="container">
+            <div class="row">
+              <!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="http://lightwidget.com/widgets/fc829189ca705891879786a3649725c9.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
+            </div>
+      </div>
+    </section>
 
-</div>
-</div>
-</div>
+    <!-- ***** Footer Area Start ***** -->
+    <footer class="footer-area section-padding-80-0">
+         <div class="container">
+             <div class="row justify-content-between">
 
-<!-- Footer -->
-<div id="footer-wrapper" align="center">
-	<br />
-	Connect with us!
-	<br />
-	<a href="mailto:wicspresident@gmail.com" class="icon fa-envelope"></a>
-	<a href="https://www.facebook.com/texaswics" class="icon fa-facebook"></a>
-	<a href="https://www.instagram.com/utcs_women" class="icon fa-instagram"></a>
-	<div class="container">
-		<br />
-		&copy; 2018 University of Texas Women in Computer Science
-		<br />
-		Design: <a href="http://html5up.net">HTML5 UP</a>
-	</br />
-	<br />
-</div>
-</div>
+                 <!-- Single Footer Widget -->
+                 <div class="col-12 col-sm-6 col-lg-3">
+                     <div class="single-footer-widget mb-80">
+                         <!-- Widget Title -->
+                         <h4 class="widget-title">About Us</h4>
+                         <ul>
+                           <li><p>WiCS @ UT Austin</p></li>
+                           <li><p>is a non-profit organization dedicated to building a community of women in Computer Science.</p></li>
+                         </ul>
+                     </div>
+                 </div>
 
-</div>
+                 <!-- Single Footer Widget -->
+                 <div class="col-12 col-sm-6 col-lg-3">
+                     <div class="single-footer-widget mb-80">
+                         <!-- Widget Title -->
+                         <h4 class="widget-title">Quick Links</h4>
 
-<!-- Scripts -->
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/jquery.dropotron.min.js"></script>
-<script src="assets/js/skel.min.js"></script>
-<script src="assets/js/skel-viewport.min.js"></script>
-<script src="assets/js/util.js"></script>
-<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-<script src="assets/js/main.js"></script>
+                         <!-- Nav -->
+                         <nav>
+                             <ul class="our-link">
+                                 <li><a href="./about.html">About</a></li>
+                                 <li><a href="./programs.html">Programs</a></li>
+                                 <li><a href="./hackathon.html">Hackathon</a></li>
+                                 <li><a href="./contact.html">Contact</a></li>
+                             </ul>
+                         </nav>
+                     </div>
+                 </div>
+
+                 <!-- Single Footer Widget -->
+                 <div class="col-12 col-sm-6 col-lg-3">
+                     <div class="single-footer-widget mb-80">
+                         <!-- Widget Title -->
+                         <h4 class="widget-title">Resources</h4>
+
+                         <!-- Nav -->
+                         <nav>
+                             <ul class="our-link">
+                                 <li><a href="./blog.html">Blog</a></li>
+                                 <li><a href="./calendar.html">Calendar</a></li>
+                                 <li><a href="https://forms.gle/qRaoXd5oQ4jDQtWj6" target="_blank" >Member Registration</a></li>
+                                 <li><a href="https://forms.gle/d2seaEMtLpMFPsnG6" target="_blank">Update Resume</a></li>
+                             </ul>
+                         </nav>
+                     </div>
+                 </div>
+
+                 <!-- Single Footer Widget -->
+                 <div class="col-12 col-sm-6 col-lg-3">
+                     <div class="single-footer-widget mb-80">
+                         <!-- Widget Title -->
+                         <h4 class="widget-title">Reach Out</h4>
+
+                         <!-- Footer Content -->
+                         <div class="footer-content mb-15">
+                           <ul>
+                             <li><h6><a href="mailto:wicspresident@gmail.com">wicspresident@gmail.com</a></h6></li>
+                             <li><p>University of Texas at Austin
+                                 <br>Gates Dell Complex, Room 3.314
+                                 <br>2317 Speedway, Austin, TX</p></li>
+                           </ul>
+                         </div>
+                     </div>
+                 </div>
+
+             </div>
+
+             <!-- Social Info -->
+             <div class="footer-social-info">
+                 <a href="https://www.facebook.com/texaswics/" class="facebook" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a>
+                 <a href="https://www.instagram.com/utwics/" class="instagram" data-toggle="tooltip" data-placement="top" title="Instagram"><i class="fa fa-instagram"></i></a>
+                 <a href="https://twitter.com/texaswics?lang=en" class="twitter" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a>
+             </div>
+
+             <div class="row-center">
+               <a href="./credits.html"><p style="text-align:center;"><span>Credits</span></p></a>
+             </div>
+
+         </div>
+     </footer>
+     <!-- ***** Footer Area End ***** -->
+
+    <!-- ******* All JS Files ******* -->
+    <!-- jQuery js -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- All js -->
+    <script src="js/uza.bundle.js"></script>
+    <!-- Active js -->
+    <script src="js/default-assets/active.js"></script>
 
 </body>
+
 </html>
