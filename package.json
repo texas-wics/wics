@@ -23,7 +23,10 @@
     "jquery": "^2.2.4",
     "jquery-waypoints": "^2.0.5",
     "jquery.easing": "^1.4.1",
+    "lodash": "^4.17.15",
+    "lodash.template": "^4.5.0",
     "magnific-popup": "^1.1.0",
+    "minimatch": "^3.0.4",
     "owl.carousel2": "^2.2.1",
     "popper.js": "^1.14.5",
     "wowjs": "^1.1.3"
