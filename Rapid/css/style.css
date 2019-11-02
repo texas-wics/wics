@@ -227,6 +227,7 @@ h6 {
   position: relative;
   background: #f5f8fd url("../img/Plane1.gif") center top no-repeat;
   background-size: 1400px 1000px;
+  filter: grayscale(25%);
 }
 
 #intro .intro-info h2 {
