@@ -41,10 +41,19 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Fredoka", sans-serif;
+  font-family: "Fredoka One", sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
+}
+
+.title {
+  font-family: "Fredoka One";
+  font-weight: 150;
+  font-size: 65px;
+  color: rgb(233, 243, 255);
+  padding-top: 100px;
+  display: inline-block;
 }
 
 /* Back to top button */
@@ -217,7 +226,7 @@ h6 {
   height: 100vh;
   position: relative;
   background: #f5f8fd url("../img/Plane1.gif") center top no-repeat;
-  background-size: cover;
+  background-size: 1400px 1000px;
 }
 
 #intro .intro-info h2 {
@@ -283,7 +292,7 @@ h6 {
   padding: 10px 15px;
   transition: 0.3s;
   font-size: 14px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Fredoka One", sans-serif;
   text-transform: uppercase;
   font-weight: 600;
 }
