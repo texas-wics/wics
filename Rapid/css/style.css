@@ -41,14 +41,22 @@ h3,
 h4,
 h5,
 h6 {
+<<<<<<< HEAD
   font-family: "Nunito", sans-serif;
+=======
+  font-family: "Fredoka One", sans-serif;
+>>>>>>> 79696bbb04d8b34f78bd59470bee13bd65b838b8
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
 }
 
 .title {
+<<<<<<< HEAD
   font-family: "Rubik";
+=======
+  font-family: "Fredoka One";
+>>>>>>> 79696bbb04d8b34f78bd59470bee13bd65b838b8
   font-weight: 150;
   font-size: 65px;
   color: rgb(233, 243, 255);
@@ -225,8 +233,13 @@ h6 {
   min-width: 100vh;
   height: 100vh;
   position: relative;
+<<<<<<< HEAD
   background: #f5f8fd url("../img/Plane4.gif") center 20% no-repeat;
   background-size: cover;
+=======
+  background: #f5f8fd url("../img/Plane4.gif") center top no-repeat;
+  background-size: 1400px 1000px;
+>>>>>>> 79696bbb04d8b34f78bd59470bee13bd65b838b8
   filter: grayscale(25%);
 }
 
@@ -293,7 +306,11 @@ h6 {
   padding: 10px 15px;
   transition: 0.3s;
   font-size: 14px;
+<<<<<<< HEAD
   font-family: "Nunito", sans-serif;
+=======
+  font-family: "Fredoka One", sans-serif;
+>>>>>>> 79696bbb04d8b34f78bd59470bee13bd65b838b8
   text-transform: uppercase;
   font-weight: 600;
 }
