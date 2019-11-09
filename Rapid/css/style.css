@@ -48,9 +48,10 @@ h6 {
 }
 
 .title {
+  text-align: center;
   font-family: "Rubik";
-  font-weight: 150;
-  font-size: 65px;
+  font-weight: 400;
+  font-size: 64px;
   color: rgb(233, 243, 255);
   padding-top: 100px;
   display: inline-block;
@@ -225,7 +226,7 @@ h6 {
   min-width: 100vh;
   height: 100vh;
   position: relative;
-  background: #f5f8fd url("../img/.gif") center 20% no-repeat;
+  background: #f5f8fd url("../img/Plane4.gif") center 20% no-repeat;
   background-size: cover;
 }
 
@@ -1487,7 +1488,26 @@ h6 {
     position: relative;
     background: #f5f8fd url("../img/Plane4.gif") center 20% no-repeat;
     background-size: cover;
+    text-align: center;
     /* filter: grayscale(25%); */
+  }
+
+  #intro .cta-btn {
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 26px;
+    border-radius: 3px;
+    transition: 0.5s;
+    margin: 10px;
+    border: 3px solid #fff;
+    color: #fff;
+  }
+
+  #intro .row {
+    align-items: center;
   }
 
   #intro .intro-info {
@@ -1543,8 +1563,10 @@ h6 {
 
 @media (max-width: 767px) {
   #intro {
+    width: 100vh;
     height: auto;
     padding: 80px 0 60px 0;
+    background: #f5f8fd url("../img/Plane4.gif") center center no-repeat;
   }
 
   #intro .container {
