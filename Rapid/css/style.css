@@ -1563,14 +1563,38 @@ h6 {
 
 @media (max-width: 767px) {
   #intro {
-    width: 100vh;
+    min-width: 0px;
     height: auto;
     padding: 80px 0 60px 0;
     background: #f5f8fd url("../img/Plane4.gif") center center no-repeat;
+    background-size: cover;
+  }
+
+  #intro .title {
+    font-size: 32px;
+    color: #413e66;
   }
 
   #intro .container {
     height: auto !important;
+  }
+
+  #intro .cta-btn {
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 26px;
+    border-radius: 3px;
+    transition: 0.5s;
+    margin: 10px;
+    border: 3px solid #413e66;
+    color: #413e66;
+  }
+
+  #intro .row {
+    align-items: center;
   }
 
   #intro .intro-img {
