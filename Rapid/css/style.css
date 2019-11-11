@@ -1570,6 +1570,10 @@ h6 {
     background-size: cover;
   }
 
+  #intro p h2 h6 {
+    color: #413e66;
+  }
+
   #intro .title {
     font-size: 32px;
     color: #413e66;
