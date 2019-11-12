@@ -1039,15 +1039,16 @@ h6 {
 }
 
 #clients img {
-  max-width: 80%;
-  opacity: 0.5;
+  max-width: 100%;
+  /* opacity: 0.5; */
   transition: 0.3s;
-  padding: 15px 0;
+  padding: 16px 16px;
+  vertical-align: middle;
 }
 
-#clients img:hover {
+/* #clients img:hover {
   opacity: 1;
-}
+} */
 
 #clients .owl-nav,
 #clients .owl-dots {
