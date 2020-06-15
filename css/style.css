@@ -8400,7 +8400,7 @@ h1, h2, h3, h4, h5,
       height: 10px;
       margin: 5px;
       border-radius: 50%;
-      background: #e6e6e6;
+      background: #adbfd2;
       position: relative; }
       .owl-carousel .owl-dots .owl-dot:after {
         position: absolute;
@@ -8411,13 +8411,13 @@ h1, h2, h3, h4, h5,
         width: 14px;
         height: 14px;
         content: '';
-        border: 1px solid #e6e6e6;
+        border: 1px solid #adbfd2;
         -webkit-border-radius: 50%;
         -moz-border-radius: 50%;
         -ms-border-radius: 50%;
         border-radius: 50%; }
       .owl-carousel .owl-dots .owl-dot.active {
-        background: #b3b3b3; }
+        background: #2b2d42; }
   .owl-carousel:hover .owl-nav .owl-prev,
   .owl-carousel:hover .owl-nav .owl-next {
     opacity: 1; }
@@ -8709,11 +8709,11 @@ h1, h2, h3, h4, h5,
     transition: all 0.3s ease; }
     .case .text h3 a {
       color: #f1e5e6;
-      font-size: 22px; }
+      font-size: 26px; }
     .case .text span {
       color: rgba(255, 255, 255, 0.9); }
   .case:hover:after {
-    opacity: .5;
+    opacity: .9;
     top: 10px;
     left: 10px;
     right: 10px;
@@ -9305,7 +9305,7 @@ textarea.form-control {
       height: 40px;
       line-height: 40px;
       border-radius: 50%;
-      border: 1px solid #e6e6e6; }
+      border: 1px solid #adbfd2; }
     .block-27 ul li.active a, .block-27 ul li.active span {
       background: #f19589;
       color: #f1e5e6;
@@ -9407,7 +9407,7 @@ textarea.form-control {
         color: #ccc; }
       .comment-list li .comment-body .reply {
         padding: 5px 10px;
-        background: #e6e6e6;
+        background: #adbfd2;
         color: #000000;
         text-transform: uppercase;
         font-size: 11px;
