@@ -9652,13 +9652,18 @@ textarea.form-control {
         object-fit: cover;
         border-radius: 50%; }
     .block-2 .author .name {
+      /*font-family: "Abril Fatface";*/
+      /*letter-spacing: 0.05em;*/
+      font-size: 20px;
+      line-height: 1em;
       color: #f1e5e6;
       font-weight: 600; }
     .block-2 .author .position {
       display: block;
       color: rgba(255, 255, 255, 0.9);
       font-size: 13px;
-      font-family: "Abril Fatface", "Poppins", Arial, sans-serif;
+      font-family: "Josefin Sans", "Poppins", Arial, sans-serif;
+      letter-spacing: 0em;
       font-weight: normal; }
   @media (max-width: 991.98px) {
     .block-2 .back {
