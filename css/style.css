@@ -9644,10 +9644,13 @@ textarea.form-control {
     left: 20px;
     right: 20px; }
     .block-2 .author .image {
+      height: 40px;
       width: 40px; }
       .block-2 .author .image img {
-        border-radius: 50%;
-        max-width: 100%; }
+        height: 40px;
+        width: 40px;
+        object-fit: cover;
+        border-radius: 50%; }
     .block-2 .author .name {
       color: #f1e5e6;
       font-weight: 600; }
