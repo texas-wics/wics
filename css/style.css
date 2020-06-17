@@ -9211,6 +9211,10 @@ textarea.form-control {
   height: 270px; }
 
 .blog-entry {
+  width: 300px;
+  height: 650px;
+  margin-right: 40px;
+  margin-left: 40px;
   overflow: hidden; }
   @media (min-width: 768px) {
     .blog-entry {
