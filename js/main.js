@@ -391,7 +391,7 @@ output += `
               <h2 class="ftco-heading-2">Resources</h2>
               <ul class="list-unstyled">
                 <li><a href="./blog.html" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Blog</a></li>
-                <li><a href="https://www.cs.utexas.edu/~wics/calendar.html" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Calendar</a></li>
+                <li><a href="./calendar.html" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Calendar</a></li>
                 <li><a href="https://forms.gle/qRaoXd5oQ4jDQtWj6" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Member Registration</a></li>
                 <li><a href="https://forms.gle/d2seaEMtLpMFPsnG6" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Update Resume</a></li>
               </ul>
@@ -478,7 +478,7 @@ output += `
               <li class="nav-item ${check_page(0)}"><a href="index.html" class="nav-link">Home</a></li>
               <li class="nav-item ${check_page(1)}"><a href="about.html" class="nav-link">About</a></li>
               <li class="nav-item ${check_page(2)}"><a href="attorneys.html" class="nav-link">Programs</a></li>
-              <li class="nav-item ${check_page(3)}"><a href="practice-areas.html" class="nav-link">Calendar</a></li>
+              <li class="nav-item ${check_page(3)}"><a href="calendar.html" class="nav-link">Calendar</a></li>
               <li class="nav-item ${check_page(4)}"><a href="case.html" class="nav-link">Resources</a></li>
               <li class="nav-item ${check_page(5)}"><a href="blog.html" class="nav-link">Hackathon</a></li>
               <li class="nav-item ${check_page(6)}"><a href="contact.html" class="nav-link">Contact</a></li>
