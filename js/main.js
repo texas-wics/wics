@@ -426,3 +426,64 @@ output += `
 `
 
 document.querySelector('.ftco-footer').innerHTML = output
+
+
+//load header
+let page_name = document.getElementById("ftco-navbar").textContent.replace(/\s+/g, '');
+var curr_page = []
+for (var i = 0; i < 7; i++) {
+    curr_page.push(false)
+}
+switch (page_name) {
+    case "home":
+        curr_page[0] = true;
+        break;
+    case "about":
+        curr_page[1] = true;
+        break;
+    case "programs":
+        curr_page[2] = true;
+        break;
+    case "calendar":
+        curr_page[3] = true;
+        break;
+    case "resources":
+        curr_page[4] = true;
+        break;
+    case "hackathon":
+        curr_page[5] = true;
+        break;
+    case "contact":
+        curr_page[6] = true;
+        break;
+}
+
+function check_page(number) {
+    if (curr_page[number]) {
+        return "active"
+    }
+    return ""
+}
+
+output = '';
+output += `
+<div class="container">
+          <a class="navbar-brand" href="index.html">WiCS <span>UT Austin</span></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="oi oi-menu"></span> Menu
+          </button>
+
+          <div class="collapse navbar-collapse" id="ftco-nav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item ${check_page(0)}"><a href="index.html" class="nav-link">Home</a></li>
+              <li class="nav-item ${check_page(1)}"><a href="about.html" class="nav-link">About</a></li>
+              <li class="nav-item ${check_page(2)}"><a href="attorneys.html" class="nav-link">Programs</a></li>
+              <li class="nav-item ${check_page(3)}"><a href="practice-areas.html" class="nav-link">Calendar</a></li>
+              <li class="nav-item ${check_page(4)}"><a href="case.html" class="nav-link">Resources</a></li>
+              <li class="nav-item ${check_page(5)}"><a href="blog.html" class="nav-link">Hackathon</a></li>
+              <li class="nav-item ${check_page(6)}"><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+`
+document.querySelector('.ftco_navbar').innerHTML = output
