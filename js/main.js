@@ -380,9 +380,9 @@ output += `
               <h2 class="logo"><a href="#">WiCS <span>UT Austin</span></a></h2>
               <p>Women in Computer Science is a non-profit organization dedicated to building a community of women in Computer Science.</p>
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-                <li class="ftco-animate"><a href="https://www.instagram.com/utwics/"><span class="icon-instagram"></span></a></li>
-                <li class="ftco-animate"><a href="https://www.facebook.com/texaswics/"><span class="icon-facebook"></span></a></li>
-                <li class="ftco-animate"><a href="https://twitter.com/texaswics"><span class="icon-twitter"></span></a></li>
+                <li class=""><a href="https://www.instagram.com/utwics/"><span class="icon-instagram"></span></a></li>
+                <li class=""><a href="https://www.facebook.com/texaswics/"><span class="icon-facebook"></span></a></li>
+                <li class=""><a href="https://twitter.com/texaswics"><span class="icon-twitter"></span></a></li>
               </ul>
             </div>
           </div>
@@ -479,7 +479,7 @@ output += `
               <li class="nav-item ${check_page(1)}"><a href="about.html" class="nav-link">About</a></li>
               <li class="nav-item ${check_page(2)}"><a href="attorneys.html" class="nav-link">Programs</a></li>
               <li class="nav-item ${check_page(3)}"><a href="calendar.html" class="nav-link">Calendar</a></li>
-              <li class="nav-item ${check_page(4)}"><a href="case.html" class="nav-link">Resources</a></li>
+              <li class="nav-item ${check_page(4)}"><a href="resources.html" class="nav-link">Resources</a></li>
               <li class="nav-item ${check_page(5)}"><a href="blog.html" class="nav-link">Hackathon</a></li>
               <li class="nav-item ${check_page(6)}"><a href="contact.html" class="nav-link">Contact</a></li>
             </ul>
