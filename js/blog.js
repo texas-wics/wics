@@ -66,7 +66,7 @@ fetch('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@wic
               		</div>
               	</div>
                 <p>${'...' + shortenText(toText(item.content),60, 200)+ '...'}</p>
-                <p><a href="#" class="btn btn-primary">Read more</a></p>
+                <p><a href="${item.link}" class="btn btn-primary">Read more</a></p>
               </div>
             </div>`
       })

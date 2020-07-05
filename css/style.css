@@ -9793,6 +9793,10 @@ textarea.form-control {
   /*overflow: auto;*/
 }
 
+.res-header {
+    font-family: "Abril Fatface" !important;
+}
+
 .sub-nav li {
     display: inline;
 }
@@ -9800,7 +9804,7 @@ textarea.form-control {
 .sub-nav a {
   padding: 6px 16px 6px 16px;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 15px;
   color: #E0A9AC;
 }
 
@@ -9812,4 +9816,11 @@ textarea.form-control {
   padding-left: 25%;
   width: 75%;
   text-align: center;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -10vh;
+    visibility: hidden;
 }
