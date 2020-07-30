@@ -477,7 +477,7 @@ output += `
             <ul class="navbar-nav ml-auto">
               <li class="nav-item ${check_page(0)}"><a href="index.html" class="nav-link">Home</a></li>
               <li class="nav-item ${check_page(1)}"><a href="about.html" class="nav-link">About</a></li>
-              <li class="nav-item ${check_page(2)}"><a href="attorneys.html" class="nav-link">Programs</a></li>
+              <li class="nav-item ${check_page(2)}"><a href="programs.html" class="nav-link">Programs</a></li>
               <li class="nav-item ${check_page(3)}"><a href="calendar.html" class="nav-link">Calendar</a></li>
               <li class="nav-item ${check_page(4)}"><a href="resources.html" class="nav-link">Resources</a></li>
               <li class="nav-item ${check_page(5)}"><a href="hackathon.html" class="nav-link">Hackathon</a></li>
