@@ -9783,6 +9783,12 @@ textarea.form-control {
   bottom: 0;
 }
 
+@media (max-width: 767.98px) {
+    .sub-nav {
+        display: none;
+    } 
+}
+
 .nav__ul {
   list-style-type: none;
   margin-top: 5px;
