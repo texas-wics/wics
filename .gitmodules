@@ -1,0 +1,3 @@
+[submodule "puzzlehunt"]
+	path = puzzlehunt
+	url = https://github.com/texas-wics/puzzle-hunt
