@@ -1,9 +1,7 @@
-fetch('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@wicspresident')
+fetch('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@wicspresident', {cache: "no-cache"})
    .then((res) => res.json())
    .then((data) => {
-       // Fillter the array
-       const res = data.items //This is an array with the content. No feed, no info about author etc..
-       const posts = res.filter(item => item.categories.length > 0) // That's the main trick* !
+       const posts = data.items
 
        function toText(node) {
          let tag = document.createElement('div')
@@ -48,6 +46,7 @@ fetch('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@wic
 
       let output = '';
       posts.forEach((item) => {
+          console.log(item.title);
          output += `
 <div class="blog-entry justify-content-end">
           		<div class="text px-4 py-4">
