@@ -1,3 +1,6 @@
 [submodule "puzzlehunt"]
 	path = puzzlehunt
 	url = https://github.com/texas-wics/puzzle-hunt
+[submodule "hackathon"]
+	path = hackathon
+	url = git@github.com:texas-wics/wicshacks21
