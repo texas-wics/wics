@@ -480,7 +480,7 @@ output += `
               <li class="nav-item ${check_page(2)}"><a href="programs.html" class="nav-link">Programs</a></li>
               <li class="nav-item ${check_page(3)}"><a href="calendar.html" class="nav-link">Calendar</a></li>
               <li class="nav-item ${check_page(4)}"><a href="resources.html" class="nav-link">Resources</a></li>
-              <li class="nav-item ${check_page(5)}"><a href="hackathon.html" class="nav-link">Hackathon</a></li>
+              <li class="nav-item ${check_page(5)}"><a href="hackathon" class="nav-link">Hackathon</a></li>
               <li class="nav-item ${check_page(6)}"><a href="contact.html" class="nav-link">Contact</a></li>
             </ul>
           </div>
